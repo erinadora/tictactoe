@@ -1,6 +1,11 @@
 @font-face {
-  font-family: 'Forte';
-  src: url('../fonts/Forte.ttf', format("truetype"); /* IE9 Compat Modes */
+  font-family: 'forte-line';
+  src: url('../fonts/Forte.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'lombok';
+  src: url('../fonts/Lombok.otf'); /* IE9 Compat Modes */
 }
 
 body {
@@ -14,7 +19,7 @@ body {
 
 
 h1 {
-  font-family:"Forte", futura!important;
+  font-family: "lombok"!important;
   font-size: 6em !important;
   text-align: center;
   padding-top: 80px;
