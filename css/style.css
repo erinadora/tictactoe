@@ -1,17 +1,20 @@
-@font-face{
-	font-family: "Forte";
-	src: url("http://www.myfontfree.com/data/25/f/forte/Forte-Line.ttf");
+@font-face {
+  font-family: 'Forte-Line';
+  src: url('../fonts/forte-line.ttf'); /* IE9 Compat Modes */
 }
 
+body {
+
+}
 
 .hero {
   min-height: 300px;
-  background-color: #fff!important;
+  background-color: #FFF !important;
 }
 
 
 h1 {
-  font-family:"Forte"!important;
+  font-family:"forte-line" !important;
   font-size: 6em !important;
   text-align: center;
   padding-top: 80px;
